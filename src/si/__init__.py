@@ -5,6 +5,13 @@ __version__ = "0.0.1"
 __maintainer__ = "Diogo Cachetas"
 __email__ = "diogo.cachetas@inl.int"
 
+__author__ = "Rafael Moreira" 
+__credits__ = ["Rafael Moreira"]
+__license__ = "Apache License 2.0"
+__version__ = "0.0.1"
+__maintainer__ = "Rafael Moreira"
+__email__ = "rafael8moreira@gmail.com"
+
 
 
 
