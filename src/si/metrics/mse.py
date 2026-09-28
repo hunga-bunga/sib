@@ -1,9 +1,22 @@
 import numpy as np
 
 
-def rmse(y_true, y_pred):
+def mse(y_true, y_pred):
     """
-    Calculate the Root Mean Squared Error.
+    Calculate the Mean Squared Error.
+
+    Parameters
+    ----------
+    y_true : np.ndarray
+        Real target values.
+
+    y_pred : np.ndarray
+        Predicted target values.
+
+    Returns
+    -------
+    float
+        Mean Squared Error.
     """
     y_true = np.asarray(y_true)
     y_pred = np.asarray(y_pred)
@@ -18,8 +31,4 @@ def rmse(y_true, y_pred):
             "y_true and y_pred cannot be empty."
         )
 
-    return np.sqrt(
-        np.mean(
-            (y_true - y_pred) ** 2
-        )
-    )
+    return np.mean((y_true - y_pred) ** 2)

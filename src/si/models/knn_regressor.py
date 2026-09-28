@@ -1,7 +1,7 @@
 import numpy as np
 
 from ..base.model import Model
-from ..metrics.rmse import rmse
+from ..metrics.mse import rmse
 
 
 def euclidean_distance(x1, x2):
